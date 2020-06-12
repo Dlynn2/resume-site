@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  /* background-color: #282c34; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,28 @@
   to {
     transform: rotate(360deg);
   }
+}
+.landing-container {
+  position: relative;
+  width: 100%;
+  /* max-width: 300px; */
+}
+.landing-image {
+  display: block;
+  width: 100%;
+  height: 100vh;
+}
+.overlay {
+  position: absolute;
+  top: 18vh;
+  /* background: rgb(0, 0, 0); */
+  /* background: rgba(0, 0, 0, 0.5); Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  /* transition: .5s ease; */
+  /* opacity:0; */
+  color: white;
+  font-size: 200%;
+  /* padding: 20px; */
+  text-align: center;
 }
