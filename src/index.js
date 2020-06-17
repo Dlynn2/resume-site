@@ -2,13 +2,18 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import About from './components/About'
+import Experience from './components/Experience'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import * as serviceWorker from './serviceWorker';
+import About from './components/About';
+import Contact from './components/Contact';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <Experience />
     <About />
+    <Contact />
   </React.StrictMode>,
   document.getElementById('root')
 );
